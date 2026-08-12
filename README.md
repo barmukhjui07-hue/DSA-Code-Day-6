@@ -12,3 +12,7 @@ Daily tracking of DSA problems, C++ implementation, and core concepts.
 * Applying bitwise operators to solve numeric problems efficiently.
 * Eliminating iterative loops in favor of constant-time $O(1)$ mathematical and bit-level properties.
 * Guarding against boundary conditions (e.g., $n \le 0$) in bitwise logic.
+
+~~ 💡 Key Takeaways:
+* **Binary Pattern:** Any power of 2 has only 1 set bit. For example, $16$ in binary is `10000`, and $15$ (`16 - 1`) is `01111`.
+* **The `n & (n - 1)` Check:** Bitwise ANDing $16$ (`10000`) and $15$ (`01111`) yields `00000`. If the result is `0` and $n > 0$, the number is guaranteed to be a power of 2.

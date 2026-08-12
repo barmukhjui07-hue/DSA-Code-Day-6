@@ -16,3 +16,9 @@ Daily tracking of DSA problems, C++ implementation, and core concepts.
 ~~ 💡 Key Takeaways:
 * **Binary Pattern:** Any power of 2 has only 1 set bit. For example, $16$ in binary is `10000`, and $15$ (`16 - 1`) is `01111`.
 * **The `n & (n - 1)` Check:** Bitwise ANDing $16$ (`10000`) and $15$ (`01111`) yields `00000`. If the result is `0` and $n > 0$, the number is guaranteed to be a power of 2.
+
+~~ ⚙️ How to Run:
+1. Open terminal in your code directory.
+2. Compile the file using `g++`:
+   ```bash
+   g++ Binary/Day006_PowerOfTwo.cpp -o PowerOfTwo

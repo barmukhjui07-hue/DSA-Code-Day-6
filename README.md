@@ -1,2 +1,3 @@
-# DSA-Code-Day-6
-Binary Number System &amp; Bitwise Manipulation
+~~ 🚀 Data Structures & Algorithms Showcase:
+Daily tracking of DSA problems, C++ implementation, and core concepts.
+
